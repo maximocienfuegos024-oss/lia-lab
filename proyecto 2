@@ -1,0 +1,314 @@
+# Proyecto – Clase 4
+## Leo ordena su bandeja de correos y prepara respuestas base
+
+**Materia:** IA generativa para distintos problemas  
+**Caso:** Tienda Pino Real  
+**Rol:** Leo – Atención a clientes  
+**Fecha:** 19 de octubre  
+**Herramienta utilizada:** ChatGPT
+
+---
+
+## 1. Introducción
+
+El presente proyecto tiene como objetivo utilizar inteligencia artificial generativa para mejorar el proceso de atención a clientes de Tienda Pino Real, una tienda en línea dedicada a la venta de artículos para el hogar.
+
+El problema principal consiste en la gran cantidad de correos electrónicos que recibe el área de atención a clientes, los cuales contienen solicitudes de información, seguimiento de pedidos, cambios, devoluciones, problemas con pagos y quejas.
+
+Para solucionar esta situación se propone utilizar un asistente de inteligencia artificial que permita organizar los mensajes, identificar su prioridad y generar respuestas base que puedan ser revisadas y adaptadas antes de enviarse.
+
+El propósito no es sustituir al personal de atención a clientes, sino reducir el tiempo dedicado a tareas repetitivas y facilitar la organización del trabajo.
+
+---
+
+## 2. Proceso de trabajo con el asistente
+
+Para desarrollar el proyecto se utilizaron diferentes tipos de tareas de inteligencia artificial generativa.
+
+### Paso 1. Resumir las políticas de la tienda
+
+Se proporcionaron al asistente las políticas de Tienda Pino Real y se solicitó identificar las reglas principales relacionadas con envíos, cambios, devoluciones, facturación, reembolsos y cancelaciones.
+
+**Tipo de tarea:** Resumir.
+
+**Objetivo:** Comprender las condiciones de servicio para evitar generar respuestas que contradigan las políticas de la empresa.
+
+### Paso 2. Extraer información de los correos
+
+Se proporcionaron los diez correos ficticios y se solicitó identificar los siguientes datos:
+
+- Nombre del cliente.
+- Número de pedido, cuando estuviera disponible.
+- Motivo del contacto.
+- Solicitud principal.
+- Fechas relevantes.
+- Información adicional que pudiera afectar la solución.
+
+**Tipo de tarea:** Extraer.
+
+**Objetivo:** Obtener los datos importantes de cada mensaje y facilitar su procesamiento.
+
+### Paso 3. Clasificar los correos
+
+Se solicitó al asistente organizar los diez correos en seis categorías y asignarles un nivel de urgencia.
+
+Las categorías utilizadas fueron:
+
+1. Seguimiento y gestión de pedidos.
+2. Incidencias y cambios de productos.
+3. Facturación.
+4. Pagos y cobros.
+5. Consultas antes de comprar.
+6. Quejas y solicitudes especiales.
+
+**Tipo de tarea:** Clasificar.
+
+**Objetivo:** Organizar la bandeja de entrada y determinar qué solicitudes deben atenderse primero.
+
+### Paso 4. Redactar respuestas base
+
+Se solicitó generar una respuesta para cada categoría, utilizando un lenguaje profesional, amable y claro.
+
+También se indicó que los datos desconocidos debían permanecer entre corchetes, por ejemplo: [nombre], [número de pedido] y [estatus del pedido].
+
+**Tipo de tarea:** Redactar.
+
+**Objetivo:** Crear respuestas reutilizables que permitan ahorrar tiempo sin proporcionar información inventada.
+
+### Paso 5. Revisar los resultados
+
+Finalmente, se compararon las respuestas generadas con las políticas oficiales de la tienda.
+
+Se identificaron situaciones que requerían atención humana, especialmente las quejas formales, los posibles cobros duplicados y los problemas que necesitaban consultar información interna.
+
+**Tipo de tarea:** Revisar y corregir.
+
+**Objetivo:** Garantizar que las respuestas respeten las políticas y no prometan soluciones que todavía no han sido autorizadas.
+
+---
+
+## 3. Clasificación de los diez correos
+
+Se establecieron tres niveles de urgencia:
+
+- **Alta:** requiere atención prioritaria o intervención de un responsable.
+- **Media:** necesita revisión, pero puede seguir el proceso habitual de atención.
+- **Baja:** es una consulta informativa que no presenta un problema inmediato.
+
+| N.º | Cliente | Categoría | Urgencia | Justificación |
+|---|---|---|---|---|
+| 1 | Patricia Lara | Seguimiento de pedidos | Media | Su pedido presenta retraso y necesita conocer su ubicación. |
+| 2 | Héctor Mendoza | Incidencias de productos | Alta | Recibió un horno dañado y adjuntó fotografías dentro del plazo establecido. |
+| 3 | Daniela Ortiz | Facturación | Media | Solicita una factura de septiembre, pero la política establece que solo se emiten durante el mes de compra. |
+| 4 | Julián Ramos | Cambios de productos | Media | Desea cambiar el color de unas sábanas que todavía están sin abrir. |
+| 5 | Silvia Cortés | Quejas y solicitudes especiales | Alta | Amenaza con presentar una queja ante Profeco y requiere atención de la supervisora. |
+| 6 | Andrés Beltrán | Consultas antes de comprar | Baja | Solicita información sobre disponibilidad y tiempos de envío. |
+| 7 | Fernanda Ibarra | Pagos y cobros | Alta | Reporta dos cargos iguales y necesita una investigación del posible cobro duplicado. |
+| 8 | Rodrigo Salinas | Gestión de pedidos | Alta | Necesita cancelar su pedido antes de que salga del almacén. |
+| 9 | Lucía Vargas | Facturación e incidencias | Alta | Solicita factura y reporta piezas faltantes, pero el reporte parece estar fuera del plazo permitido. |
+| 10 | Mauricio Duarte | Quejas y solicitudes especiales | Alta | Solicita un reembolso sin proporcionar información suficiente para identificar el problema. |
+
+### Casos con más de una categoría
+
+**Correo 9 – Lucía Vargas:** pertenece a facturación e incidencias de productos porque solicita una factura y reporta la falta de una bolsa de tornillos.
+
+**Correo 10 – Mauricio Duarte:** puede relacionarse con devoluciones, reembolsos y quejas, pero no proporciona información suficiente para determinar el procedimiento correspondiente.
+
+---
+
+## 4. Respuestas base por categoría
+
+Las siguientes plantillas están diseñadas para reutilizarse. Los datos entre corchetes deben completarse después de consultar la información correspondiente.
+
+### 4.1 Seguimiento y gestión de pedidos
+
+**Asunto: Actualización de tu pedido [número de pedido]**
+
+Hola, [nombre]:
+
+Gracias por comunicarte con Tienda Pino Real.
+
+Con gusto te ayudamos a revisar el estado de tu pedido [número de pedido].
+
+Actualmente, el estatus de tu pedido es: [estatus del pedido].
+
+Nuestros tiempos de entrega son de 3 a 5 días hábiles en ciudades principales y de 5 a 8 días hábiles en el resto del país.
+
+Si deseas cancelar tu pedido, podemos revisar si todavía no ha salido del almacén. Si ya fue enviado, la solicitud deberá tratarse mediante el proceso de devolución.
+
+Gracias por tu paciencia.
+
+Atentamente,  
+Equipo de Atención a Clientes  
+Tienda Pino Real.
+
+### 4.2 Incidencias y cambios de productos
+
+**Asunto: Atención a tu solicitud sobre el pedido [número de pedido]**
+
+Hola, [nombre]:
+
+Lamentamos los inconvenientes con tu producto y agradecemos que nos hayas informado.
+
+Si recibiste un artículo dañado o incompleto, puedes reportarlo dentro de los primeros 3 días naturales después de recibirlo, adjuntando fotografías. Una vez validado el caso, se realizará la reposición sin costo.
+
+Para cambios de productos, contamos con un plazo de hasta 15 días naturales después de recibir el pedido, siempre que el artículo no haya sido utilizado y conserve su empaque.
+
+Tu solicitud será revisada para confirmar que cumple con las condiciones correspondientes.
+
+Gracias por tu comprensión.
+
+Atentamente,  
+Equipo de Atención a Clientes  
+Tienda Pino Real.
+
+### 4.3 Facturación
+
+**Asunto: Solicitud de factura del pedido [número de pedido]**
+
+Hola, [nombre]:
+
+Gracias por tu compra en Tienda Pino Real.
+
+Con gusto podemos ayudarte con tu solicitud de factura.
+
+Para emitirla necesitamos tus datos fiscales completos, incluyendo RFC, dentro del mismo mes en que realizaste tu compra.
+
+Una vez recibida la información correspondiente, podremos dar seguimiento a tu solicitud.
+
+Es importante mencionar que, de acuerdo con nuestras políticas, no es posible emitir facturas de compras correspondientes a meses anteriores.
+
+Gracias por tu preferencia.
+
+Atentamente,  
+Equipo de Atención a Clientes  
+Tienda Pino Real.
+
+### 4.4 Pagos y cobros
+
+**Asunto: Revisión de cobro del pedido [número de pedido]**
+
+Hola, [nombre]:
+
+Gracias por informarnos sobre esta situación.
+
+Lamentamos los inconvenientes ocasionados. Hemos recibido tu reporte de posible cobro duplicado y será necesario realizar una revisión.
+
+Este proceso tiene un tiempo estimado de 2 días hábiles.
+
+En caso de confirmarse el cobro duplicado, el banco realizará la devolución del cargo adicional en un periodo de 3 a 5 días hábiles.
+
+Por seguridad, recuerda que nunca solicitaremos por correo tu número completo de tarjeta, contraseñas ni códigos de seguridad.
+
+Gracias por tu paciencia.
+
+Atentamente,  
+Equipo de Atención a Clientes  
+Tienda Pino Real.
+
+### 4.5 Consultas antes de comprar
+
+**Asunto: Información sobre nuestros productos y envíos**
+
+Hola, [nombre]:
+
+Gracias por tu interés en Tienda Pino Real.
+
+Con gusto podemos ayudarte a resolver tus dudas.
+
+Sobre la disponibilidad del producto [nombre del producto], en el color [color solicitado], podemos confirmar que [disponibilidad del producto].
+
+Nuestros tiempos de entrega son:
+
+- Ciudades principales: de 3 a 5 días hábiles.
+- Resto del país: de 5 a 8 días hábiles.
+
+Si tienes alguna otra pregunta, estaremos encantados de ayudarte.
+
+Gracias por considerar Tienda Pino Real para tus compras.
+
+Atentamente,  
+Equipo de Atención a Clientes  
+Tienda Pino Real.
+
+### 4.6 Quejas y solicitudes especiales
+
+**Asunto: Seguimiento a tu solicitud**
+
+Hola, [nombre]:
+
+Lamentamos que hayas tenido una experiencia que no cumpliera con tus expectativas.
+
+Queremos revisar cuidadosamente tu situación para brindarte una atención adecuada.
+
+Para localizar tu compra, necesitamos confirmar el número de pedido [número de pedido] y conocer brevemente el motivo de tu solicitud.
+
+En caso de que tu situación requiera una revisión especial, será canalizada con el personal correspondiente.
+
+Agradecemos que nos hayas contactado.
+
+Atentamente,  
+Equipo de Atención a Clientes  
+Tienda Pino Real.
+
+**Nota:** Esta plantilla no debe utilizarse para quejas formales ni para clientes que mencionen autoridades. Esos casos deben enviarse directamente a la supervisora.
+
+---
+
+## 5. Correos que requieren atención humana
+
+Aunque la inteligencia artificial permite organizar y redactar respuestas, existen situaciones que requieren decisiones humanas y acceso a información interna.
+
+| Correo | Responsable | Motivo de escalamiento |
+|---|---|---|
+| 2 | Atención a clientes | Se deben validar las fotografías y gestionar la reposición del producto dañado. |
+| 5 | Marcela Reyes (supervisora) | Menciona a Profeco. La política exige atención de la supervisora el mismo día. |
+| 7 | Área de pagos | Se necesita investigar el posible cobro duplicado y confirmar si procede el reembolso. |
+| 8 | Almacén y atención a clientes | Es necesario verificar si el pedido todavía puede cancelarse. |
+| 9 | Atención a clientes y facturación | Tiene dos solicitudes y el reporte de piezas faltantes parece estar fuera del plazo de tres días. |
+| 10 | Atención a clientes y supervisión | No se conoce el motivo del reembolso y es necesario revisar la solicitud de no recibir más mensajes. |
+
+### Justificación
+
+La inteligencia artificial no debe tomar decisiones financieras, autorizar excepciones ni garantizar soluciones sin verificar la información correspondiente.
+
+En estos casos, el personal debe revisar los datos, consultar los sistemas internos y determinar el procedimiento adecuado.
+
+---
+
+## 6. Revisión y correcciones realizadas
+
+Durante la revisión comparé las respuestas generadas por la inteligencia artificial con las políticas oficiales de Tienda Pino Real.
+
+Detecté que algunas respuestas podían prometer reembolsos o reposiciones sin confirmar primero que se cumplieran las condiciones establecidas. Por esta razón, agregué pasos de validación antes de confirmar una solución.
+
+También identifiqué que el correo de Silvia debía enviarse directamente a la supervisora Marcela Reyes y que la solicitud de piezas faltantes de Lucía se realizó después del plazo de tres días naturales.
+
+Finalmente, comprobé que la solicitud de factura de Daniela no puede procesarse porque corresponde a septiembre, mientras que la compra de Lucía sí puede solicitar factura porque se realizó durante octubre.
+
+---
+
+## 7. Conclusión
+
+El desarrollo de este proyecto permitió identificar cómo la inteligencia artificial generativa puede utilizarse para mejorar los procesos de atención a clientes.
+
+Mediante las tareas de resumen, extracción, clasificación y redacción fue posible organizar diez correos electrónicos, identificar su prioridad y desarrollar respuestas base para las situaciones más comunes.
+
+También se comprobó que la inteligencia artificial tiene limitaciones, ya que no puede conocer automáticamente el estado real de los pedidos, confirmar transacciones bancarias ni autorizar excepciones a las políticas de una empresa.
+
+Por lo tanto, la mejor estrategia consiste en combinar la rapidez de la inteligencia artificial con la supervisión y experiencia del personal humano.
+
+**Resultado esperado:** una bandeja de correos mejor organizada, respuestas más uniformes y una atención más eficiente para los clientes de Tienda Pino Real.
+
+---
+
+## 8. Consideraciones de uso
+
+- Las respuestas base deben revisarse antes de enviarse.
+- Los datos entre corchetes deben completarse con información verificada.
+- No se deben inventar fechas de entrega, estados de pedidos o autorizaciones.
+- Nunca se debe solicitar información bancaria confidencial por correo.
+- Las quejas formales y menciones de autoridades deben escalarse a la supervisora.
+- La inteligencia artificial funciona como herramienta de apoyo y no sustituye la responsabilidad del personal de atención a clientes.
+
+**Fin del proyecto – Clase 4.**
